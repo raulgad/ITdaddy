@@ -1,15 +1,16 @@
-# Generate new IT advices and principles
+# Generator of new IT principles and advices
 
 ## How it works
-Based on the word or phrase typed by the user, the neural network generates new software engineering advices and principles.
+Based on the word or phrase typed by the user, the neural network generates new software engineering principles and advices.
 
 THERE SHOULD BE IMG
 
 ## How it was done
-More than a hundred IT tips, principles, and proverbs were collected for the project by parsing. The parsing was done from the Wikipedia site. Then the obtained dataset was processed to increase the efficiency of neural network training. 
-Then the the GPT-2 was finetuned.
+More than a hundred IT principles, tips, and advices were collected for the project by parsing. The parsing was done from the Wikipedia site. Then the obtained dataset was processed to increase the efficiency of the finetuned GPT-2 neural network.
 
 ## Implementation
-By AIOgram was made the telegram-bot and configured the model output.
+By AIOgram was made the telegram-bot and 
+THERE SHOULD BE IMG
 
-THERE SHOULD BE IMGS
+By Flask was made the site.
+THERE SHOULD BE IMG
