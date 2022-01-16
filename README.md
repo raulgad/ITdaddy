@@ -1,18 +1,14 @@
 # Generator of new IT principles, patterns and anti-patterns
 
 ## How it works
-Based on the word or phrase typed by the user, the neural network generates new software engineering principles and advices.
+Based on the word or phrase typed by the user, the neural network generate new software engineering principle.
 
-THERE SHOULD BE IMG
-
-## How it was done
-More than a hundred IT principles, tips, and advices were collected for the project by parsing. The parsing was done from the Wikipedia site. Then the obtained dataset was processed to increase the efficiency of the finetuned GPT-2 neural network.
+<img src="static/main_typed.jpg"/>
 
 ## Implementation
-By AIOgram was made the telegram-bot.
+A website was created with Flask.
 
-THERE SHOULD BE IMG
+<img src="static/result.jpg"/>
 
-By Flask was made the site.
-
-THERE SHOULD BE IMG
+## How it was done
+More than a hundred IT principles, patterns, and anti-patterns were parsed from the Wikipedia for the project. Then the dataset was preprocessed to increase the efficiency of the finetuned GPT-2 neural network.

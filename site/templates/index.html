@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %} Predict {% endblock %}
+
+{% block content %}
+
+<br><br><br>
+
+{% if result %}
+    <center><div class="output"><i>{{ prompt }}</i> {{ result }}</center>
+    <br>
+{% endif %}
+
+<div class="box">
+    <form method="POST" action="/results">
+        <div class="field">
+            <center><input class="input is-large" name="input" placeholder="Type here the beginning..."><br></center>
+            <br>
+            <center><button class="button is-block is-info is-large is-fullwidth" id="submit">Generate</button></center>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}
