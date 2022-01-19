@@ -1,4 +1,4 @@
-# Generator of new IT principles, patterns and anti-patterns
+# The generator of new IT principles, patterns and anti-patterns
 
 ## How it works
 The neural network generates new software engineering principles based on the text typed by the user.
